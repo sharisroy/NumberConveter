@@ -1,0 +1,111 @@
+﻿*, *:after, *:before{box-sizing:border-box;}
+.body{
+   background-color:#EFEFEF;
+   line-height:7px;
+}
+.container{
+    width:100%;
+    max-width:1170px;
+    margin:0 auto;
+    position:relative;
+}
+.container:after{display:block; content:""; clear:both;}
+.header{
+    
+    width:100%;
+    height:50px;
+    border:4px solid #ef9316;
+    margin-top:50px;
+}
+.title{
+    width:100%;
+    height:60px;
+    position:absolute;
+    top:20px;
+    z-index:9;
+}
+.title h1{
+    width:600px;
+    height:60px;
+    font-size:40px;
+    color:white;
+    background-color:#f79b1e;
+    padding:23px 20px;
+    border-radius:20px;
+    margin:0 auto;
+    text-align:center;
+    text-transform:uppercase;
+}
+.content{
+    width:100%;
+    height:auto;
+    border:4px solid #ef9316;
+    border-top:none;
+    padding:15px;
+    position:relative;
+    z-index:1;
+    
+}
+.mainContent{
+    text-align:center;
+    font-size:20px;
+    font-family:Arial;
+    font-style:oblique;
+    margin-top:30px; 
+}
+sub{
+    vertical-align: sub;
+    font-size:10px;
+    font-weight:bold;
+}
+
+
+.history{
+    text-align:center;
+    padding:10px;
+    width:100%;
+    height:auto;
+    border:4px solid #ef9316;
+    border-top:none;
+
+}
+.footer{
+    text-align:center;
+    font-size:15px;
+    padding:5px;
+    width:100%;
+    height:auto;
+    border:4px solid #ef9316;
+    border-top:none;
+}
+
+
+
+.table{
+      width:64%;
+      text-align:left;
+      margin-left:350px;
+}
+
+.Data{
+    font-size:14px;
+    text-align:left;
+    margin:15px 200px;
+
+}
+
+
+tbody tr th {
+	vertical-align: middle;
+      padding:2px  0;
+}
+
+tbody tr td{
+    vertical-align:middle;
+      padding:7px  0;
+    
+}
+
+dataGridView{
+    text-align:center;
+}
